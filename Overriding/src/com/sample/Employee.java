@@ -16,7 +16,7 @@ class Manager extends Employee
 	int ta;
 	int getSalary(int hra,int ta)
 	{
-		return 95000+hra+ta;
+		return super.getSalary()+hra+ta;  //refers to the immediate parent class
 		
 	}	
 	
